@@ -2,7 +2,7 @@
     "id": "dda8df2e-4bb3-41cd-945e-b8fc1e16f6d3",
     "modelName": "GMProject",
     "mvc": "1.0",
-    "IsDnDProject": true,
+    "IsDnDProject": false,
     "configs": [
         
     ],
@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "1c695b77-1904-4395-92cd-540f04f7be18",
+            "Value": {
+                "id": "81defa23-7b2c-48cd-945b-f3f21660c10c",
+                "resourcePath": "shaders\\shWhite\\shWhite.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "1d3aa673-9fcf-4191-ad31-c623b32cc614",
             "Value": {
                 "id": "a2685bbe-9c1d-4145-b4bf-4d2922543f33",
@@ -108,6 +116,22 @@
                 "id": "6f6242c8-8d51-47e6-b761-915b595deecd",
                 "resourcePath": "views\\212a4732-fcf3-4949-a361-a2f6edc11532.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2448ea15-fb2f-4419-a190-1d796f507dd4",
+            "Value": {
+                "id": "8a4822e3-af7f-49ed-8f53-25b157e75492",
+                "resourcePath": "scripts\\Jump\\Jump.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2d04df0d-0bbc-452e-a50b-cc3943b5e380",
+            "Value": {
+                "id": "25d79b4a-f2d3-4a83-8a42-d081216212dc",
+                "resourcePath": "scripts\\Flop\\Flop.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -164,6 +188,14 @@
                 "id": "e93ab7e6-e717-4d35-b4b7-bb46bbf95487",
                 "resourcePath": "sounds\\snFoot3\\snFoot3.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "3c8d7a51-61aa-4f2e-aa10-f24466169697",
+            "Value": {
+                "id": "9fd5a54b-5ccd-434e-9c5d-61a1d69facd7",
+                "resourcePath": "scripts\\SetGameSpeed\\SetGameSpeed.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -279,19 +311,19 @@
             }
         },
         {
-<<<<<<< HEAD:RocketMan/RocketMan.yyp
-            "Key": "7d0ba5a9-1007-4403-9b10-cad0873882ee",
+            "Key": "7acab2fa-4278-48eb-80a8-867069200b89",
             "Value": {
-                "id": "2a60456c-012d-427b-b193-da7aa08e0fba",
-                "resourcePath": "shaders\\shFlash\\shFlash.yy",
-                "resourceType": "GMShader"
-=======
+                "id": "ce003256-875c-4b19-816e-609c0b0e0e32",
+                "resourcePath": "scripts\\Gravity\\Gravity.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7bd3c9fa-cf21-4d8b-8cc5-cc26b75041c4",
             "Value": {
                 "id": "31efc86e-2d16-491a-9e0d-cdc7deaa35ad",
                 "resourcePath": "sounds\\snLanding\\snLanding.yy",
                 "resourceType": "GMSound"
->>>>>>> fd93c3f764c7026267cf3f3a693c03ba9190f1fa:RocketMan/RocketMan.yyp
             }
         },
         {
@@ -316,6 +348,14 @@
                 "id": "6579ffb7-0c41-41db-aae1-9ce73ee3e68e",
                 "resourcePath": "sprites\\sMarker\\sMarker.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "92cf4f63-e679-4f36-84d5-095662084445",
+            "Value": {
+                "id": "ae930eb6-acdf-49f3-9ac5-e27a866758ac",
+                "resourcePath": "objects\\oLauncherDead\\oLauncherDead.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -388,6 +428,14 @@
                 "id": "a9208c86-91f8-4216-bc41-e7c35cc14f2d",
                 "resourcePath": "sprites\\sSign\\sSign.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "aa37d813-b551-4d72-9426-b19ae8288218",
+            "Value": {
+                "id": "47eecaf1-7ba1-41cf-907c-8fc3e9dd7f75",
+                "resourcePath": "sounds\\snTitle\\snTitle.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -586,7 +634,11 @@
     "script_order": [
         "a6070534-903b-4493-b956-7c258781b24d",
         "52bf7011-b434-455b-b401-3945ebf3821b",
-        "95586f1f-f258-4f45-8315-aec50e1786b1"
+        "95586f1f-f258-4f45-8315-aec50e1786b1",
+        "7acab2fa-4278-48eb-80a8-867069200b89",
+        "2d04df0d-0bbc-452e-a50b-cc3943b5e380",
+        "2448ea15-fb2f-4419-a190-1d796f507dd4",
+        "3c8d7a51-61aa-4f2e-aa10-f24466169697"
     ],
     "tutorial": ""
 }
