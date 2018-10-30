@@ -8,10 +8,20 @@
             "id": "26586414-6585-4590-955a-7539c1f18e22",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
+            "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 54,
-            "eventtype": 6,
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "ec749d8c-d8e0-4936-8b9b-0f9a4642879c"
+        },
+        {
+            "id": "66f4152b-300e-49ce-8cdb-438eb5e8d0a9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
             "m_owner": "ec749d8c-d8e0-4936-8b9b-0f9a4642879c"
         }
     ],
@@ -45,6 +55,48 @@
             "value": "\"default\"",
             "varName": "text",
             "varType": 2
+        },
+        {
+            "id": "a35d95bc-167f-4ec5-83b7-951ea0975e89",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.25",
+            "varName": "spd",
+            "varType": 0
+        },
+        {
+            "id": "3643f5d2-e097-492b-a607-3ae071370838",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "border",
+            "varType": 0
+        },
+        {
+            "id": "d59935b9-2a17-4a82-8dc6-6cd18664c63f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "focus_camera",
+            "varType": 3
         }
     ],
     "solid": false,

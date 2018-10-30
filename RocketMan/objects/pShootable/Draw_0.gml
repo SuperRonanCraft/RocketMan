@@ -1,0 +1,1 @@
+flash = Flash(flash);

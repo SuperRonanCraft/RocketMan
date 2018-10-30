@@ -4,5 +4,5 @@
     "mvc": "1.0",
     "name": "DrawSetText",
     "IsCompatibility": false,
-    "IsDnD": true
+    "IsDnD": false
 }

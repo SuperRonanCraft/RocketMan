@@ -1,11 +1,6 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 421BDE7B
-/// @DnDArgument : "code" "hsp = 0;$(13_10)vsp = 0;$(13_10)grv = 0.2;$(13_10)walksp = 4;$(13_10)hascontrol = true;$(13_10)canjump = 0;$(13_10)controller = 0;"
-hsp = 0;
-vsp = 0;
-grv = 0.2;
-walksp = 4;
-hascontrol = true;
-canjump = 0;
-controller = 0;
+ghostjump = true;
+gunkickx = 0;
+gunkicky = 0;
+hit_cooldown = 0;
+if (global.player_last_health != 0)
+	hp = global.player_last_health;
