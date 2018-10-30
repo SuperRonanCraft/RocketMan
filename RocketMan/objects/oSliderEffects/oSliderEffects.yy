@@ -23,7 +23,7 @@
             "mvc": "1.0",
             "objectId": "83c3dc67-7890-4ac3-9115-b99ed4f62f1d",
             "propertyId": "93f3d7d9-1860-47a7-8ccf-675759d4e3cd",
-            "value": "Music"
+            "value": "Effects"
         },
         {
             "id": "e2d6f96f-90d4-47bf-9012-d7de8acd16b6",

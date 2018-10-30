@@ -121,6 +121,20 @@
             "value": "0",
             "varName": "instant",
             "varType": 3
+        },
+        {
+            "id": "44f07bba-52e0-4ba1-adf1-ab63af21f537",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "textscale",
+            "varType": 0
         }
     ],
     "solid": false,

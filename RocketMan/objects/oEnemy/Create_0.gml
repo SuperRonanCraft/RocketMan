@@ -4,3 +4,4 @@ if (hasweapon) {
 		owner = other.id;
 } else
 	mygun = noone;
+hit_cooldown = 0;

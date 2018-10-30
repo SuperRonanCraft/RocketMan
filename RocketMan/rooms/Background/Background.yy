@@ -13,6 +13,32 @@
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Entities",
+            "id": "ac706315-7345-4189-93d6-5095c3ee0e16",
+            "depth": -1200,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "instances": [
+
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
+            "visible": true
+        },
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Gun",
             "id": "3ef30449-45af-4652-b78d-83e3e117b1b1",
             "depth": -1100,
@@ -94,7 +120,7 @@
             "userdefined_depth": false,
             "visible": true,
             "vspeed": 0,
-            "vtiled": false,
+            "vtiled": true,
             "x": 0,
             "y": 225
         },
@@ -129,7 +155,7 @@
             "userdefined_depth": false,
             "visible": true,
             "vspeed": 0,
-            "vtiled": false,
+            "vtiled": true,
             "x": 0,
             "y": 270
         },
@@ -139,7 +165,7 @@
             "id": "08f3f4dd-1655-4d8f-9eec-e32eebc78073",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4294945280 },
+            "colour": { "Value": 4283190302 },
             "depth": -700,
             "grid_x": 32,
             "grid_y": 32,

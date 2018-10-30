@@ -2,5 +2,8 @@ ghostjump = true;
 gunkickx = 0;
 gunkicky = 0;
 hit_cooldown = 0;
-if (global.player_last_health != 0)
-	hp = global.player_last_health;
+if (global.player_health_original == 0)
+	global.player_health_original = hp;
+if (!global.newgame)
+	if (global.player_health_room != 0)
+		hp = global.player_health_room;

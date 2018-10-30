@@ -17,6 +17,5 @@ if (selected) {
 } else if (is_sound && !sound_played) {
 	var snd = audio_play_sound(snShoot, 1, false);
 	audio_sound_gain(snd, value, 0);
-	show_debug_message("PLAYED SOUND!!!!!!!!!!!!!!!!!!")
 	sound_played = true;
 }

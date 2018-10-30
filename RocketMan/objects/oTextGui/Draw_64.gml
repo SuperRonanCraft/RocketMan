@@ -11,7 +11,7 @@ if (border > 0) {
 	border = 0;
 
 //Draw text
-DrawSetText(c_white, fSign, fa_center, fa_top);
+DrawSetText(c_white, font, fa_center, fa_top);
 if (!instant)
 	draw_text(x, y - h - border, text_current);
 else

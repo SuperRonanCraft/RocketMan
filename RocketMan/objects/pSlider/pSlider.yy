@@ -89,6 +89,20 @@
             "value": "0",
             "varName": "is_sound",
             "varType": 3
+        },
+        {
+            "id": "c7954e07-26c4-417c-8a40-537096d098e7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "fPixel",
+            "varName": "font",
+            "varType": 5
         }
     ],
     "solid": false,

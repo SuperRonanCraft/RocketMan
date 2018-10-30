@@ -15,43 +15,52 @@ if (menu_control) {
 
 	//Keyboard Controls / selection
 	if (mouse_moving){
-		if (mouse_y_gui < menu_y && mouse_y_gui > menu_top) {
+		if (mouse_y_gui < menu_y && mouse_y_gui > menu_top)
 			menu_cursor = (menu_y - mouse_y_gui) div (menu_itemheight * 1.5);
-		} else
+		else
 			menu_cursor = -1;
 	} else if (menu_cursor >= 0 && mouse_check_button_pressed(mb_left)) {
 		menu_x_target = gui_width + 200;
 		menu_committed = menu_cursor;
 		//ScreenShake(4, 30);
 		menu_control = false;
-		audio_play_sound(hover, 10, false);
+		audio_play_sound(snSelect, 10, false);
 	}
 } else if (menu_x > gui_width + 160 && menu_committed != -1) 
 	switch (menu_committed) {
 		case 2:
+			window_set_fullscreen(!window_get_fullscreen());
+			menu_committed = -1;
+			deleting = false;
+			menu_control = true;
+			menu_x_target = gui_width - gui_margin;
 			break;
-		case 1: {
-			instance_create_layer(x, y, layer, oSliderVolume);
+		case 1:
+			menu_committed = -1;
+			deleting = false;
+			menu_control = true;
+			menu_x_target = gui_width - gui_margin;
 			break;
-		}
 		case 0: 
+			deleting = true;
 			instance_change(oMenu, true);
 			break;
 		default:
+			deleting = true;
 			SlideTransition(TRANS_MODE.RESTART);
 			break;
 	}
 else if (oTransition.mode == TRANS_MODE.RESTART)
 	menu_x_target = gui_width + 200;
-if (! (menu_x > gui_width + 160 && menu_committed != -1))
+if (!(menu_x > gui_width + 160 && menu_committed != -1))
 	for (var i = 0; i < obj_items; i++) {
 		if (!obj_created[i]) {
-			instance_create_layer(menu_x, y, layer, obj[i]);
+			instance_create_layer(menu_x, menu_y + (i * 50) + 50, layer, obj[i]);
 			obj_created[i] = true;
 		} else 
 			obj[i].x = menu_x;
 	}
-else {
+else if (deleting) {
 	for (var i = 0; i < obj_items; i++) {
 		if (obj_created[i])
 			instance_destroy(obj[i]);

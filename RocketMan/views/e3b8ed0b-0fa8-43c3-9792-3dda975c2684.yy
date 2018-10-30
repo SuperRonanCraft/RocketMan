@@ -10,10 +10,13 @@
         "ee7d7c79-039d-4078-8c81-ba475cac30eb",
         "58bf6246-be56-463e-86f3-4f182803e9d4",
         "38be9da8-ea24-4a40-8cab-8d6d0a65d84b",
-        "1269c74d-1e7b-439d-8351-94efb5eea4d3"
+        "1269c74d-1e7b-439d-8351-94efb5eea4d3",
+        "46cce38f-93e0-424b-b8e7-3f985e610dd3",
+        "9060d9ee-7760-4043-8ade-3367c2498167",
+        "2f869f9a-1f9c-46df-a9d8-632eb1098072"
     ],
     "filterType": "GMSound",
-    "folderName": "sngAmbient",
+    "folderName": "sngEffect",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

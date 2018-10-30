@@ -121,6 +121,20 @@
             "value": "0",
             "varName": "instant",
             "varType": 3
+        },
+        {
+            "id": "634babb5-bce5-46eb-92fe-41cb19a10498",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "fPixel",
+            "varName": "font",
+            "varType": 5
         }
     ],
     "solid": false,

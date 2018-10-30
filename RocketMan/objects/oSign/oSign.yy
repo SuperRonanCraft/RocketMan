@@ -97,6 +97,20 @@
             "value": "True",
             "varName": "focus_camera",
             "varType": 3
+        },
+        {
+            "id": "05d09ce2-ded6-4e6c-a6ea-7ee19e356772",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.5",
+            "varName": "fontscale",
+            "varType": 0
         }
     ],
     "solid": false,

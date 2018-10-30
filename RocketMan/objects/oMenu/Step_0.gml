@@ -23,12 +23,13 @@ if (menu_control) {
 		menu_committed = menu_cursor;
 		ScreenShake(4, 30);
 		menu_control = false;
-		audio_play_sound(hover, 10, false);
+		audio_play_sound(snSelect, 10, false);
 	}
 //Committed a selection
 } else if (menu_x > gui_width + 160 && menu_committed != -1)
 	switch (menu_committed) {
-		case 3: 
+		case 3:
+			global.newgame = true;
 			SlideTransition(TRANS_MODE.NEXT);
 			break;
 		case 2: {

@@ -122,7 +122,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "3",
+            "value": "6",
             "varName": "accuracy",
             "varType": 0
         },
@@ -136,7 +136,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "25",
+            "value": "0",
             "varName": "kickx",
             "varType": 0
         },
