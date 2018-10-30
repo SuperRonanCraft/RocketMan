@@ -1,4 +1,4 @@
-//Progress Transition
+/// @desc Progress Transitions
 if (mode != TRANS_MODE.OFF) {
 	if (mode == TRANS_MODE.INTRO)
 		percent = max(0, percent - max((percent / 10), 0.005));
@@ -26,11 +26,6 @@ if (mode != TRANS_MODE.OFF) {
 					room_restart();
 				else 
 					room_goto(rMenu);
-				break;
-			}
-			case TRANS_MODE.OPTIONS: {
-				mode = TRANS_MODE.INTRO;
-				room_goto(rOptions);
 				break;
 			}
 			case TRANS_MODE.INTRO: default: {

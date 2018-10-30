@@ -28,13 +28,14 @@ if (menu_control) {
 	}
 } else if (menu_x > gui_width + 160 && menu_committed != -1) 
 	switch (menu_committed) {
-		case 3:
+		case 2:
 			break;
-		case 2: {
+		case 1: {
+			instance_create_layer(x, y, layer, oSliderVolume);
 			break;
 		}
 		case 0: 
-			SlideTransition(TRANS_MODE.GOTO, rMenu);
+			instance_change(oMenu, true);
 			break;
 		default:
 			SlideTransition(TRANS_MODE.RESTART);
@@ -42,5 +43,19 @@ if (menu_control) {
 	}
 else if (oTransition.mode == TRANS_MODE.RESTART)
 	menu_x_target = gui_width + 200;
+if (! (menu_x > gui_width + 160 && menu_committed != -1))
+	for (var i = 0; i < obj_items; i++) {
+		if (!obj_created[i]) {
+			instance_create_layer(menu_x, y, layer, obj[i]);
+			obj_created[i] = true;
+		} else 
+			obj[i].x = menu_x;
+	}
+else {
+	for (var i = 0; i < obj_items; i++) {
+		if (obj_created[i])
+			instance_destroy(obj[i]);
+	}
+}
 //layer_x(oCamera.mountainLayer, 1);
 //layer_x(oCamera.treesLayer, 4);

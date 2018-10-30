@@ -44,7 +44,7 @@ if (menu_control) {
 			break;
 		}
 		case 1:
-			SlideTransition(TRANS_MODE.OPTIONS);
+			instance_change(oOptions, true);
 			break;
 		case 0: 
 			game_end();

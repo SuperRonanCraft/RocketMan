@@ -1,6 +1,6 @@
 /// @descr Sounds loaded
 if (audio_group_is_loaded(agMusic)) {
-	audio_group_set_gain(agMusic, 0.1, false);
+	//audio_group_set_gain(agMusic, 0.1, false);
 	if (!music)
 		audio_play_sound(snTitle, 1000, true);
 	music = true;

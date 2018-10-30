@@ -15,6 +15,7 @@ menu_committed = -1;
 menu_cursor_old = menu_cursor;
 menu_control = true;
 
+menu = 0;
 menu[3] = "New Game";
 menu[2] = "Continue";
 menu[1] = "Options";
