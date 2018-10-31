@@ -16,7 +16,7 @@ menu_cursor_old = menu_cursor;
 menu_control = true;
 
 menu = 0;
-menu[2] = "Toggle Fullscreen";
+menu[2] = "Fullscreen";
 menu[1] = "Keybinds"
 menu[0] = "Back";
 

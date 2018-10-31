@@ -2,9 +2,9 @@ var enemy_dir = point_direction(other.x, other.y, x, y);
 with (oPlayer) {
 	hp--;
 	//flash = Flash(flash);
-	if (instance_exists(oScore))
-		with (oScore)
-			healthtextscale = 2;
+	if (instance_exists(oHealth))
+		with (oHealth)
+			healthscale = 2;
 	if (hp <= 0) {
 		DieDirection(oPDead, enemy_dir, 6, 4);
 		with (oGun) {

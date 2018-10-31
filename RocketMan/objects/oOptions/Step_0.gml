@@ -30,6 +30,10 @@ if (menu_control) {
 	switch (menu_committed) {
 		case 2:
 			window_set_fullscreen(!window_get_fullscreen());
+			if (window_get_fullscreen())
+				menu[2] = "Windowed";
+			else
+				menu[2] = "Fullscreen";
 			menu_committed = -1;
 			deleting = false;
 			menu_control = true;
