@@ -17,6 +17,7 @@ global.player_coins_room = 0;
 global.player_health_original = 0;
 
 //Keybinds
-global.strafeleft = ord("A");
-global.straferight = ord("D");
-global.jump = vk_space;
+global.keybind_left = ord("A");
+global.keybind_right = ord("D");
+global.keybind_jump = vk_space;
+global.keybind_interact = ord("E");

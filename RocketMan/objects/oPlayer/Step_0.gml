@@ -1,9 +1,9 @@
 /// @desc Movement and particles
 //Player Input
 if (hascontrol) {
-	key_left = keyboard_check(global.strafeleft);
-	key_right = keyboard_check(global.straferight);
-	key_jump = keyboard_check_pressed(global.jump);
+	key_left = keyboard_check(global.keybind_left);
+	key_right = keyboard_check(global.keybind_right);
+	key_jump = keyboard_check_pressed(global.keybind_jump);
 	if (key_left || key_right || key_jump)
 		controller = 0;
 	if (abs(gamepad_axis_value(0, gp_axislh)) > 0.2){
@@ -23,8 +23,7 @@ if (hascontrol) {
 
 //Calculate Movement
 var move = key_right - key_left;
-hsp = (move * walksp) + gunkickx;
-gunkickx = min(gunkickx + grv, 0);
+hsp = move * walksp;
 
 //Jumping
 canjump--;
@@ -47,8 +46,7 @@ if (key_jump) {
 var aimside = sign(mouse_x - x);
 if (aimside != 0)
 	image_xscale = aimside;
-Gravity(0, gunkicky, false);
-gunkicky = min(gunkicky + grv, 0);
+Gravity(0, false);
 //Animation
 grounded = Jump(sPlayer, sPlayerRun, sPlayerAir, 1, 0, aimside, sPlayerRunBack);
 if (grounded && !ghostjump)

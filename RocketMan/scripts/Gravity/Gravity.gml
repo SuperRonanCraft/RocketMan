@@ -1,8 +1,7 @@
 /// @desc Gravity for an object
 /// @arg Horizontal speed to set when touching wall
-/// @arg vertical kick
 /// @arg change look direction
-vsp = (vsp + grv) + argument1
+vsp = vsp + grv
 
 //Horizontal
 if (place_meeting(x + hsp, y, pWall)) {
@@ -21,5 +20,5 @@ if (place_meeting(x, y + vsp, pWall)) {
 y = y + vsp;
 
 //Direction
-if (argument2 && hsp != 0)
+if (argument1 && hsp != 0)
 	image_xscale = sign(hsp);

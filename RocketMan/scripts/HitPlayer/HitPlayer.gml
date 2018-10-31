@@ -7,7 +7,7 @@ with (oPlayer) {
 			healthscale = 2;
 	if (hp <= 0) {
 		DieDirection(oPDead, enemy_dir, 6, 4);
-		with (oGun) {
+		with (oWeapon) {
 			newDir = enemy_dir;
 			event_user(0);
 		}

@@ -1,3 +1,6 @@
-instance_destroy();
-instance_create_layer(oPlayer.x, oPlayer.y, "Gun", oGun);
+with (oWeapon) {
+	ChangeWeapon(other.weapon);
+	ammo[weapon] += 20;
+}
 CanProgress();
+instance_destroy();

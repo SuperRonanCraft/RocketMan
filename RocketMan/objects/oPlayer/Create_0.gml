@@ -1,6 +1,4 @@
 ghostjump = true;
-gunkickx = 0;
-gunkicky = 0;
 hit_cooldown = 0;
 if (global.player_health_original == 0)
 	global.player_health_original = hp;

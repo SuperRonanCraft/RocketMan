@@ -2,7 +2,7 @@
     "id": "9d553ec0-d529-4e9e-bcdf-39ef333420f4",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oGun",
+    "name": "oGunOLD",
     "eventList": [
         {
             "id": "ed3ffe32-696f-4c7b-bff7-fe6a5f55b0b7",
@@ -22,6 +22,26 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 10,
             "eventtype": 7,
+            "m_owner": "9d553ec0-d529-4e9e-bcdf-39ef333420f4"
+        },
+        {
+            "id": "91d7a701-ed18-485b-ab54-ca66876791cb",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "9d553ec0-d529-4e9e-bcdf-39ef333420f4"
+        },
+        {
+            "id": "f751128f-7a52-4189-8658-3eb5406bfc81",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "9d553ec0-d529-4e9e-bcdf-39ef333420f4"
         }
     ],
