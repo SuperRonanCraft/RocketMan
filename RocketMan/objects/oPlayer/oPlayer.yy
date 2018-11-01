@@ -92,6 +92,30 @@
             "objectId": "653a39fe-a87b-4459-b82d-e7f1a7bcdc9a",
             "propertyId": "cfc8c9ce-0fa2-4c1e-a075-6eefe4892b01",
             "value": "sPlayerDead"
+        },
+        {
+            "id": "ba258743-3591-4f9f-9295-2dcfcaddcdad",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "653a39fe-a87b-4459-b82d-e7f1a7bcdc9a",
+            "propertyId": "6e728f26-dd64-4c36-9c69-f483a2d38ae5",
+            "value": "15"
+        },
+        {
+            "id": "e5c671e6-4d9d-4b71-8275-fbace4c8eb5b",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "3388daa6-0e5f-4e49-84c2-150d0da3080e",
+            "propertyId": "b8e1c89e-7ee9-4e4c-9459-da1cf6f477b8",
+            "value": "False"
+        },
+        {
+            "id": "2ae9dac7-fd5e-46d9-a536-b805ed2e354e",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "3388daa6-0e5f-4e49-84c2-150d0da3080e",
+            "propertyId": "7b50d567-29be-4699-b129-e339db8a6b8d",
+            "value": "True"
         }
     ],
     "parentObjectId": "653a39fe-a87b-4459-b82d-e7f1a7bcdc9a",
@@ -109,34 +133,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        {
-            "id": "5e40a03b-e147-4422-871f-2f41e0f07835",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "hsp",
-            "varType": 0
-        },
-        {
-            "id": "54e1c862-0249-476a-9f37-10f1939c8b1a",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "vsp",
-            "varType": 0
-        },
         {
             "id": "9aeba1e6-b482-4432-9f9f-b66fdaa8469c",
             "modelName": "GMObjectProperty",
@@ -234,20 +230,6 @@
             "value": "True",
             "varName": "jump_double",
             "varType": 3
-        },
-        {
-            "id": "769cc390-fc76-4a26-b040-098b5c79bc38",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "10",
-            "varName": "hp",
-            "varType": 0
         }
     ],
     "solid": false,

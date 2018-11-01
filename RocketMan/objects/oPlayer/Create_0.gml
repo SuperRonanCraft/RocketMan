@@ -8,3 +8,4 @@ if (!global.newgame)
 mygun = instance_create_depth(x, y, depth - 1, oWeapon)
 with (mygun)
 	owner = other.id;
+event_inherited();

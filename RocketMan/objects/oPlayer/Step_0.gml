@@ -46,7 +46,7 @@ if (key_jump) {
 var aimside = sign(mouse_x - x);
 if (aimside != 0)
 	image_xscale = aimside;
-Gravity(0, false);
+
 //Animation
 grounded = Jump(sPlayer, sPlayerRun, sPlayerAir, 1, 0, aimside, sPlayerRunBack);
 if (grounded && !ghostjump)

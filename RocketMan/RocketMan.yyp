@@ -106,7 +106,7 @@
             "Key": "0fcd30b9-df38-4be1-9648-7530600dfdf4",
             "Value": {
                 "id": "d18418b5-66b2-44b7-a243-417955010e78",
-                "resourcePath": "sprites\\sGun\\sGun.yy",
+                "resourcePath": "sprites\\sWeapon_RPG\\sWeapon_RPG.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -135,6 +135,22 @@
             }
         },
         {
+            "Key": "165c0a88-e1d9-4997-a429-e63d9ae28e09",
+            "Value": {
+                "id": "4367dfee-9c5b-47d8-b26f-9026ba11cc80",
+                "resourcePath": "objects\\pWall\\pWall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "168118de-3252-4298-a6b4-fc6606db6745",
+            "Value": {
+                "id": "d1ff4862-d098-43c7-a311-fde03f13ef37",
+                "resourcePath": "sprites\\sBullet_AR\\sBullet_AR.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "17f0faa9-3925-45c0-bebe-56b90520d408",
             "Value": {
                 "id": "4b41ff62-5f72-4122-81e9-e974511221e1",
@@ -155,6 +171,14 @@
             "Value": {
                 "id": "53b82ade-a4b8-4c20-83f3-70024ee84888",
                 "resourcePath": "sprites\\sMountain\\sMountain.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1a234cd5-5bb8-406e-9df2-c1ad83589499",
+            "Value": {
+                "id": "ce0fb5a3-ca21-4d9a-9139-4d5c0b132547",
+                "resourcePath": "sprites\\sCollision\\sCollision.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -303,6 +327,14 @@
             }
         },
         {
+            "Key": "3388daa6-0e5f-4e49-84c2-150d0da3080e",
+            "Value": {
+                "id": "ac82a40a-8e7d-4a93-90e9-0c4e63d0c901",
+                "resourcePath": "objects\\pGravity\\pGravity.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "33da57de-89d2-4fd0-a54c-9b9cceea9c22",
             "Value": {
                 "id": "6121da31-8cc4-48b1-b016-7944a62bb358",
@@ -322,7 +354,7 @@
             "Key": "34449a4e-1fec-45c9-91d4-3cfd1a1bf012",
             "Value": {
                 "id": "64cf2c06-6bdb-4c8c-a2a7-cc6235e7ade8",
-                "resourcePath": "objects\\oMissle\\oMissle.yy",
+                "resourcePath": "objects\\oBullet\\oBullet.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -418,7 +450,7 @@
             "Key": "4d14a94b-dc1d-4f4b-851e-8c9caa83aba8",
             "Value": {
                 "id": "c1c27bfd-dbe7-481f-9ca1-eb9a4f700f94",
-                "resourcePath": "objects\\oPickup\\oPickup.yy",
+                "resourcePath": "objects\\oWeaponPickup\\oWeaponPickup.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -671,6 +703,14 @@
             }
         },
         {
+            "Key": "7e8bb239-7c3f-4f44-8e4e-edb4adf59f7f",
+            "Value": {
+                "id": "b8ba2ae9-400b-44b3-886e-e6b2df3119f9",
+                "resourcePath": "objects\\oSpikes1\\oSpikes1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7eba9b46-27e2-46b2-9080-7f033fb1deff",
             "Value": {
                 "id": "bf8d5ce5-fa93-45d7-a1f5-86d5e3854563",
@@ -708,14 +748,6 @@
                 "id": "90e2f3de-dc87-4aa3-b057-3f130084b52e",
                 "resourcePath": "views\\8662b2c5-0741-49dd-bd3d-05ae2320ae6d.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "87019329-85de-4d3f-8a3d-2e95bcfacebf",
-            "Value": {
-                "id": "c0340360-36ef-40cc-81c6-980d55343673",
-                "resourcePath": "sprites\\sHealth1\\sHealth1.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -871,18 +903,18 @@
             }
         },
         {
-            "Key": "a3714499-6262-4ce8-840d-a9a08095f8a0",
+            "Key": "9f7816b8-84a8-454b-99a4-037c918e82f7",
             "Value": {
-                "id": "dad049b4-2efd-47ed-ad52-50293e05398c",
-                "resourcePath": "objects\\oHealth\\oHealth.yy",
+                "id": "6c9a3b4b-1d78-41ad-8e65-7fa654e9e6a1",
+                "resourcePath": "objects\\oWeaponAmmo\\oWeaponAmmo.yy",
                 "resourceType": "GMObject"
             }
         },
         {
-            "Key": "a4869ea7-abf9-4331-8f26-4cbeaa848016",
+            "Key": "a3714499-6262-4ce8-840d-a9a08095f8a0",
             "Value": {
-                "id": "3e50eec0-3e01-4247-959a-f5452d03ac67",
-                "resourcePath": "objects\\pWall\\pWall.yy",
+                "id": "dad049b4-2efd-47ed-ad52-50293e05398c",
+                "resourcePath": "objects\\oHealth\\oHealth.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -954,7 +986,15 @@
             "Key": "b1f56d4c-7b23-4ad1-be41-a34ff2a0ad5f",
             "Value": {
                 "id": "a440b4cd-8af5-4685-8451-5b65fb862c70",
-                "resourcePath": "sprites\\sGun1\\sGun1.yy",
+                "resourcePath": "sprites\\sWeapon_AR\\sWeapon_AR.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b3b56365-6b6d-4acd-beda-3eb74e5cfd28",
+            "Value": {
+                "id": "a67211dc-4fb1-4649-b4c2-acef0193f0c3",
+                "resourcePath": "sprites\\sAmmo\\sAmmo.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1074,7 +1114,7 @@
             "Key": "cee5359a-ff99-4af5-8333-07bceefec5d6",
             "Value": {
                 "id": "9a537de3-a35f-4d25-ab75-c49d09c8e734",
-                "resourcePath": "sprites\\sBullet\\sBullet.yy",
+                "resourcePath": "sprites\\sBullet_RPG\\sBullet_RPG.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1332,6 +1372,14 @@
                 "id": "df23aa67-0558-4b2e-b6bd-59c0f860d2cc",
                 "resourcePath": "views\\f77e5cb9-cc5c-4693-989b-1ff89fa18b8d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f89b6d0e-c603-4ca5-ac7a-58d748b91ff9",
+            "Value": {
+                "id": "19ef08cb-0cec-493e-8121-0f41dd35ac7d",
+                "resourcePath": "tilesets\\tCollision\\tCollision.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {

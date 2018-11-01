@@ -15,16 +15,6 @@
             "m_owner": "653a39fe-a87b-4459-b82d-e7f1a7bcdc9a"
         },
         {
-            "id": "36fcdc9f-d262-40c8-841b-9a0dd1a8ddc8",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "653a39fe-a87b-4459-b82d-e7f1a7bcdc9a"
-        },
-        {
             "id": "b1aed48f-de96-4bc0-a8e6-ff133179c503",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -37,7 +27,7 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "3388daa6-0e5f-4e49-84c2-150d0da3080e",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -81,34 +71,6 @@
             "varType": 0
         },
         {
-            "id": "faf34f79-9210-49c9-8bb6-e62e5558fa68",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "has_gravity",
-            "varType": 3
-        },
-        {
-            "id": "49b2dd48-32b0-42ab-8717-4d6b46165577",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "vsp",
-            "varType": 0
-        },
-        {
             "id": "8808162e-2e8a-4c7b-ac33-796d89fb7a9d",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -120,20 +82,6 @@
             "resourceFilter": 1023,
             "value": "0.3",
             "varName": "grv",
-            "varType": 0
-        },
-        {
-            "id": "c7d20276-fa1a-48a3-886f-d679e88e587a",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "hsp",
             "varType": 0
         },
         {

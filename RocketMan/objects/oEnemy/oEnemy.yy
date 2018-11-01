@@ -48,14 +48,6 @@
     "maskSpriteId": "b507da60-76e8-4c05-8172-ac471c04d798",
     "overriddenProperties": [
         {
-            "id": "57e78979-3f73-464b-86a7-d068ee8e8d04",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "653a39fe-a87b-4459-b82d-e7f1a7bcdc9a",
-            "propertyId": "faf34f79-9210-49c9-8bb6-e62e5558fa68",
-            "value": "True"
-        },
-        {
             "id": "0fca80d6-e0b2-481a-b2f7-3c9d8484b6da",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
@@ -149,6 +141,20 @@
             "resourceFilter": 1023,
             "value": "1",
             "varName": "weapon",
+            "varType": 0
+        },
+        {
+            "id": "98092865-f68a-44e8-83dd-d4812174494b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "damage",
             "varType": 0
         }
     ],

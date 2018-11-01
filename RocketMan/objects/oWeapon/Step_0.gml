@@ -10,7 +10,7 @@ image_angle = direction;
 
 //Follow oPlayer
 x = owner.x;
-y = owner.y;
+y = owner.y + 5;
 
 //firingdelay--;
 //recoil = max(0, recoil - 1);
@@ -19,13 +19,14 @@ y = owner.y;
 //Bullet
 if (current_delay == 0 && projectile != -1) {
 	if (ammo[weapon] != 0) {
-		with (instance_create_layer(x - lengthdir_x(length, direction), y + lengthdir_y(length, direction), "Bullet", projectile)) {
+		with (instance_create_layer(x - lengthdir_x(length, direction), y + lengthdir_y(length, direction), "Bullet", oBullet)) {
+			sprite_index = other.projectile;
 			direction = other.direction;
 			image_angle = direction;
 			speed = other.bulletspeed;
 			owner = other.owner;
 		}
-		ammo[weapon] -= 1;
+		//ammo[weapon] -= 1;
 		//with (owner) {
 		//	hsp -= lengthdir_x(other.recoil_push, other.direction);
 		//	vsp -= lengthdir_y(other.recoil_push, other.direction);

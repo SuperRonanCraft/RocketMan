@@ -1,5 +1,5 @@
 {
-    "id": "a4869ea7-abf9-4331-8f26-4cbeaa848016",
+    "id": "165c0a88-e1d9-4997-a429-e63d9ae28e09",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "pWall",
@@ -25,5 +25,5 @@
     "properties": null,
     "solid": false,
     "spriteId": "55073297-bfb8-4485-a05b-f2c6d842d652",
-    "visible": false
+    "visible": true
 }

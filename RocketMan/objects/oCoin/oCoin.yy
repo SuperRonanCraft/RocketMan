@@ -33,7 +33,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "655172be-1570-40fe-b705-b95dd20a113b",
+            "id": "fe088bec-6b1e-4918-ba63-01bc88b75e43",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -42,26 +42,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "\"default\"",
-            "varName": "text",
-            "varType": 2
-        },
-        {
-            "id": "3834c971-459a-4f50-8273-b2b8a070e394",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0.25",
-            "varName": "spd",
+            "value": "1",
+            "varName": "amount",
             "varType": 0
         },
         {
-            "id": "c280a243-f11c-407f-8808-347e64e6412f",
+            "id": "bd7ad750-001c-4181-a29c-abe02c8d4a16",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -70,23 +56,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "10",
-            "varName": "border",
+            "value": "2",
+            "varName": "textscale",
             "varType": 0
-        },
-        {
-            "id": "c7aef03c-288c-42d2-b95e-c1d9a3d22bde",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "True",
-            "varName": "focus_camera",
-            "varType": 3
         }
     ],
     "solid": false,

@@ -1,3 +1,3 @@
 /// @desc Pick up coin
-CollectCoin();
+CollectCoin(amount, textscale);
 instance_destroy();

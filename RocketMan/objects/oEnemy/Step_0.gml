@@ -7,7 +7,7 @@ if (hit_cooldown > 0)
 	hit_cooldown--;
 
 //Animation
-grounded = Jump(sEnemy, sEnemyRun, sEnemyAir, 1, 0, mygun.direction, sEnemyRun);
+grounded = Jump(sEnemy, sEnemyRun, sEnemyAir, 1, 0, direction, sEnemyRun);
 
 
 if (instance_exists(oPlayer)) 
@@ -19,7 +19,15 @@ if (instance_exists(oPlayer))
 				current_cd = cooldown;
 				current_delay = startup;
 			}
+		} else {
+			xpoint = other.hsp + other.x;
+			ypoint = y;
 		}
+	}
+else 
+	with (mygun) {
+		xpoint = other.hsp + other.x;
+		ypoint = other.y;
 	}
 
 //Gravity
