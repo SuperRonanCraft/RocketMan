@@ -52,3 +52,12 @@ grounded = Jump(sPlayer, sPlayerRun, sPlayerAir, 1, 0, aimside, sPlayerRunBack);
 if (grounded && !ghostjump)
 	ghostjump = true;
 	
+with (mygun) {
+	if (mouse_check_button(mb_left) || gamepad_button_check(0, gp_shoulderrb))
+		if (current_cd == 0) {
+			current_cd = cooldown;
+			current_delay = startup;
+		}
+	xpoint = mouse_x;
+	ypoint = mouse_y;
+	}

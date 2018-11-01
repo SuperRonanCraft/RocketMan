@@ -62,6 +62,22 @@
             "objectId": "653a39fe-a87b-4459-b82d-e7f1a7bcdc9a",
             "propertyId": "c7d20276-fa1a-48a3-886f-d679e88e587a",
             "value": "3"
+        },
+        {
+            "id": "c07072fb-29fc-4ae6-8534-3758ee1f37b2",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "653a39fe-a87b-4459-b82d-e7f1a7bcdc9a",
+            "propertyId": "cfc8c9ce-0fa2-4c1e-a075-6eefe4892b01",
+            "value": "sEnemyDead"
+        },
+        {
+            "id": "d1e51421-10ad-4f3c-9409-603095eb3653",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "653a39fe-a87b-4459-b82d-e7f1a7bcdc9a",
+            "propertyId": "a051e16d-6f79-4b7b-977e-4a345fcd4c6e",
+            "value": "False"
         }
     ],
     "parentObjectId": "653a39fe-a87b-4459-b82d-e7f1a7bcdc9a",
@@ -131,9 +147,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "True",
-            "varName": "hasweapon",
-            "varType": 3
+            "value": "1",
+            "varName": "weapon",
+            "varType": 0
         }
     ],
     "solid": false,

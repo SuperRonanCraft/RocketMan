@@ -35,16 +35,6 @@
             "m_owner": "2db3afed-eded-4caa-b3c6-e263c636bcaa"
         },
         {
-            "id": "1a727c8d-1372-459c-9bbd-9c8dce0f8629",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "c06ab0f0-b053-4620-bfcd-4603e82de2f3",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "2db3afed-eded-4caa-b3c6-e263c636bcaa"
-        },
-        {
             "id": "fa0d4443-89f9-46c1-8bbf-fe56466827df",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -73,11 +63,38 @@
             "enumb": 5,
             "eventtype": 7,
             "m_owner": "2db3afed-eded-4caa-b3c6-e263c636bcaa"
+        },
+        {
+            "id": "597e2ca3-a502-42a7-9f95-8c88f020045b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 3,
+            "m_owner": "2db3afed-eded-4caa-b3c6-e263c636bcaa"
         }
     ],
     "maskSpriteId": "ecbefd72-18f1-48c2-bc51-bc85c6cda7d8",
-    "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": [
+        {
+            "id": "b82bbe9a-d95b-4043-bbbc-d20c5ff2235a",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "653a39fe-a87b-4459-b82d-e7f1a7bcdc9a",
+            "propertyId": "a051e16d-6f79-4b7b-977e-4a345fcd4c6e",
+            "value": "False"
+        },
+        {
+            "id": "8f637a90-5284-43c5-9ebd-b8cd845759a4",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "653a39fe-a87b-4459-b82d-e7f1a7bcdc9a",
+            "propertyId": "cfc8c9ce-0fa2-4c1e-a075-6eefe4892b01",
+            "value": "sPlayerDead"
+        }
+    ],
+    "parentObjectId": "653a39fe-a87b-4459-b82d-e7f1a7bcdc9a",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -228,7 +245,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "25",
+            "value": "10",
             "varName": "hp",
             "varType": 0
         }

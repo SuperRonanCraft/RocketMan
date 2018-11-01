@@ -30,4 +30,6 @@ ChangeWeapon(0);
 current_cd = 0;
 current_delay = -1;
 current_recoil = 0;
+xpoint = x - 1;
+ypoint = y;
 

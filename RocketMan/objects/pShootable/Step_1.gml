@@ -1,5 +1,5 @@
 if (hp <= 0) 
-	DieDirection(death_object, hitfrom, death_hsp, death_vsp);
+	DieDirection(death_sprite, hitfrom, death_hsp, death_vsp, fade);
 	/*with (instance_create_layer(x, y, "Enemy", oEDead)) {
 		direction = other.hitfrom;
 		hsp = lengthdir_x(3, direction);

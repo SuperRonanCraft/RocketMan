@@ -1,5 +1,5 @@
-if (hasweapon) {
-	mygun = instance_create_layer(x, y, "Gun", oEGun)
+if (weapon != 0) {
+	mygun = instance_create_depth(x, y, depth - 1, oWeapon);
 	with (mygun)
 		owner = other.id;
 } else

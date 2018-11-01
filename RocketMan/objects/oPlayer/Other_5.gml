@@ -1,2 +1,2 @@
 /// @desc Save health
-global.player_health_lastroom = hp;
+global.player_health_room= hp;

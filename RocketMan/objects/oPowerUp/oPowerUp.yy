@@ -41,7 +41,7 @@
             "mvc": "1.0",
             "objectId": "653a39fe-a87b-4459-b82d-e7f1a7bcdc9a",
             "propertyId": "cfc8c9ce-0fa2-4c1e-a075-6eefe4892b01",
-            "value": "oPowerUpDead"
+            "value": "sUpgrade"
         },
         {
             "id": "ee76ebf1-b52a-40a6-a4c4-b0f1cc5fc6c4",

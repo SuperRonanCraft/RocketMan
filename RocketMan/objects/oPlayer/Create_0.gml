@@ -5,3 +5,6 @@ if (global.player_health_original == 0)
 if (!global.newgame)
 	if (global.player_health_room != 0)
 		hp = global.player_health_room;
+mygun = instance_create_depth(x, y, depth - 1, oWeapon)
+with (mygun)
+	owner = other.id;

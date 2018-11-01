@@ -15,16 +15,6 @@
             "m_owner": "284705f3-4b1e-41c3-83a8-0a7ca6609176"
         },
         {
-            "id": "e1022fa1-bbce-4b3a-ae0a-81b0715b46eb",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 10,
-            "eventtype": 7,
-            "m_owner": "284705f3-4b1e-41c3-83a8-0a7ca6609176"
-        },
-        {
             "id": "86ea3249-a879-427a-8d18-8e8d50592fae",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -63,48 +53,6 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "1d5a6f33-9ca2-4c1a-b65a-dce2c228c923",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "firingdelay",
-            "varType": 0
-        },
-        {
-            "id": "599e6cb4-947d-44c1-ac91-8072633f5ac7",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "5",
-            "varName": "firingpause",
-            "varType": 0
-        },
-        {
-            "id": "77602797-4dcf-40e5-8a4a-a090b8cf4ba6",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "20",
-            "varName": "recoil",
-            "varType": 0
-        },
-        {
             "id": "43368ed8-9f7c-4f7a-8bac-fa9c921d56c6",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -116,62 +64,6 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "controller_angle",
-            "varType": 0
-        },
-        {
-            "id": "04e7872f-0df7-49f5-b29b-16cd6814a153",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "True",
-            "varName": "follow",
-            "varType": 3
-        },
-        {
-            "id": "b6f09c4f-4f72-41f7-8283-dac51c2292e9",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "6",
-            "varName": "accuracy",
-            "varType": 0
-        },
-        {
-            "id": "2e2d5c9a-64eb-4449-80e5-63c7c94372ad",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "kickx",
-            "varType": 0
-        },
-        {
-            "id": "0026ccc0-6c55-4ad8-a17b-c4a80fcec443",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "kicky",
             "varType": 0
         }
     ],

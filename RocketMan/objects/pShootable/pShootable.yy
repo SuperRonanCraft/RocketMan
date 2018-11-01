@@ -160,8 +160,8 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "oEDead",
-            "varName": "death_object",
+            "value": "sEnemyDead",
+            "varName": "death_sprite",
             "varType": 5
         },
         {
@@ -191,6 +191,20 @@
             "value": "3",
             "varName": "death_vsp",
             "varType": 0
+        },
+        {
+            "id": "a051e16d-6f79-4b7b-977e-4a345fcd4c6e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "fade",
+            "varType": 3
         }
     ],
     "solid": false,
