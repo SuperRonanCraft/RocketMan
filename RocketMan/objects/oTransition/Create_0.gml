@@ -5,7 +5,7 @@ h = display_get_gui_height();
 h_half = w / 2;
 
 enum TRANS_MODE {
-	OFF, NEXT, GOTO, RESTART, INTRO
+	OFF, NEXT, GOTO, RESTART, INTRO, PAUSE, UNPAUSE
 }
 
 mode = TRANS_MODE.INTRO;

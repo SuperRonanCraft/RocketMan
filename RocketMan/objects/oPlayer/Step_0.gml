@@ -1,9 +1,19 @@
 /// @desc Movement and particles
+
+//Gravity
+if (global.paused) {
+	image_speed = 0;
+	return;
+} else
+	image_speed = 1;
+scGravity();
+//scKeybind();
+
 //Player Input
 if (hascontrol) {
-	key_left = keyboard_check(global.keybind_left);
-	key_right = keyboard_check(global.keybind_right);
-	key_jump = keyboard_check_pressed(global.keybind_jump);
+	key_left = keyboard_check(global.key_left);
+	key_right = keyboard_check(global.key_right);
+	key_jump = keyboard_check_pressed(global.key_jump);
 	if (key_left || key_right || key_jump)
 		controller = 0;
 	if (abs(gamepad_axis_value(0, gp_axislh)) > 0.2){
@@ -35,23 +45,23 @@ if (key_jump) {
 	} else if (jump)
 		jump_double = true;
 	if (jump || ghostjump) {
-		vsp = jump_height;
+		vsp = -jump_height;
 		canjump = 0;
 		SpawnDustParticle(5, 0, 0, false, true, false, true);
 		ghostjump = false;
 	} 
 }
 
-//Gravity
+//Direction
 var aimside = sign(mouse_x - x);
 if (aimside != 0)
 	image_xscale = aimside;
 
 //Animation
-grounded = Jump(sPlayer, sPlayerRun, sPlayerAir, 1, 0, aimside, sPlayerRunBack);
-if (grounded && !ghostjump)
+Jump(sPlayer, sPlayerRun, sPlayerAir, 1, 0, aimside, sPlayerRunBack, standing);
+if (standing && !ghostjump)
 	ghostjump = true;
-	
+
 with (mygun) {
 	if (mouse_check_button(mb_left) || gamepad_button_check(0, gp_shoulderrb))
 		if (current_cd == 0) {
@@ -60,4 +70,4 @@ with (mygun) {
 		}
 	xpoint = mouse_x;
 	ypoint = mouse_y;
-	}
+}

@@ -1,4 +1,5 @@
 global.inmenu = room == rMenu;
+global.paused = false;
 if (global.player_died) {
 	global.player_kills -= global.player_kills_room;
 	global.player_coins -= global.player_coins_room;
@@ -22,3 +23,4 @@ if (global.newgame) {
 	global.player_kills_room = 0;
 	global.newgame = false;
 }
+global.tilemap = layer_tilemap_get_id("Collision");

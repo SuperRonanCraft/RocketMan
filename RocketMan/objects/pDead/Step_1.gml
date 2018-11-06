@@ -1,8 +1,10 @@
 /// @desc Flop to ground 
+if (global.paused)
+	return;
 if (doneFlopping == 0) {
 	doneFlopping = Flop();
 	if (doneFlopping == 1 && image_number > 1) {
-		image_index = 1;
+		image_index = death_image_index;
 		if (owner == oPlayer)
 			SetGameSpeed();
 	}
@@ -22,4 +24,11 @@ if (doneFlopping == 0) {
 	image_alpha -= 0.05;
     if (image_alpha < 0)
 		instance_destroy();
+}
+if (smoke) {
+	if (smokeParts mod 10 == 0) {
+		instance_create_depth(x, y, depth - 1, oDust);
+		smokeParts = 9;
+	} else
+		smokeParts--;
 }

@@ -4,6 +4,8 @@
 /// @arg horizontal-kick
 /// @arg vertical-kick
 /// @arg fade
+/// @arg death-image-index
+/// @arg smoke-effects
 var instance = object_index;
 instance_change(pDead, true);
 sprite_index = argument0;
@@ -14,3 +16,5 @@ if (sign(hsp) != 0)
 	image_xscale = sign(hsp);
 fade = argument4;
 owner = instance;
+death_image_index = argument5;
+smoke = argument6;

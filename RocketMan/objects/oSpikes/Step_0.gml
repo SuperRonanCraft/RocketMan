@@ -1,4 +1,6 @@
 /// @description Update spikes
+if (global.paused)
+	return;
 if (image_index == image_number - 1) {
 	animate--;
 	if (animate <= 0) {

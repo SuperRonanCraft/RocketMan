@@ -125,6 +125,34 @@
             "value": "0",
             "varName": "fade",
             "varType": 3
+        },
+        {
+            "id": "f33c76f2-cce2-41c8-9c94-8436d03a4401",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "death_image_index",
+            "varType": 0
+        },
+        {
+            "id": "db42cf26-e672-4f84-a0b7-577efabdae92",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "smoke",
+            "varType": 3
         }
     ],
     "solid": false,

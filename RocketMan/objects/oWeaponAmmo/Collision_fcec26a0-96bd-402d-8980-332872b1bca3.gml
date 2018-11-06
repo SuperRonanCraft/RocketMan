@@ -1,4 +1,3 @@
-with (other.mygun) {
-	ammo[weapon] += 20;
-}
+//with (other.mygun)
+//	ammo[weapon] += other.amount;
 instance_destroy();

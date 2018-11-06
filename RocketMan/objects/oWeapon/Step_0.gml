@@ -15,18 +15,20 @@ y = owner.y + 5;
 //firingdelay--;
 //recoil = max(0, recoil - 1);
 
+if (projectile == -1)
+	return;
 
 //Bullet
-if (current_delay == 0 && projectile != -1) {
-	if (ammo[weapon] != 0) {
-		with (instance_create_layer(x - lengthdir_x(length, direction), y + lengthdir_y(length, direction), "Bullet", oBullet)) {
+if (current_delay == 0) {
+	if (ammo != 0) {
+		with (instance_create_depth(x + lengthdir_x(length, direction), y + lengthdir_y(length, direction), depth - 1, oBullet)) {
 			sprite_index = other.projectile;
 			direction = other.direction;
 			image_angle = direction;
-			speed = other.bulletspeed;
+			spd = other.bulletspeed;
 			owner = other.owner;
 		}
-		//ammo[weapon] -= 1;
+		ammo -= 1;
 		//with (owner) {
 		//	hsp -= lengthdir_x(other.recoil_push, other.direction);
 		//	vsp -= lengthdir_y(other.recoil_push, other.direction);
@@ -41,8 +43,15 @@ current_delay = max(-1, current_delay - 1);
 if (current_delay == -1)
 	current_cd = max(0, current_cd - 1);
 current_recoil = max(0, floor(current_recoil * 0.8));
-
 depth = owner.depth - 1;
+
+//Reload
+if (ammo == 0)
+	if (current_reload > reload_time) {
+		ammo = clip;
+		current_reload = 0;
+	} else
+		current_reload++;
 	
 /*
 recoil = 4;

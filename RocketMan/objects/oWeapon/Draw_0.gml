@@ -2,7 +2,7 @@
 if (sprite != -1) {
 	draw_sprite_ext(
 	sprite,
-	image_index,
+	1,
 	x - lengthdir_x(current_recoil, direction),
 	y - lengthdir_y(current_recoil, direction),
 	image_xscale,

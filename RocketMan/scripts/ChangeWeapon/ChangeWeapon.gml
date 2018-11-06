@@ -11,3 +11,6 @@ cooldown = wp_map[? "cooldown"];
 bulletspeed = wp_map[? "bulletspeed"];
 length = wp_map[? "length"];
 startup = wp_map[? "startup"];
+clip = wp_map[? "clip"];
+ammo = clip;
+reload_time = wp_map[? "reload_time"];

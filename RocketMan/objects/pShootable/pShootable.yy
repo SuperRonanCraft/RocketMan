@@ -27,7 +27,7 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "3388daa6-0e5f-4e49-84c2-150d0da3080e",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -68,20 +68,6 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "flash",
-            "varType": 0
-        },
-        {
-            "id": "8808162e-2e8a-4c7b-ac33-796d89fb7a9d",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0.3",
-            "varName": "grv",
             "varType": 0
         },
         {
@@ -152,6 +138,34 @@
             "resourceFilter": 1023,
             "value": "True",
             "varName": "fade",
+            "varType": 3
+        },
+        {
+            "id": "ac03cbc3-90bb-4f3a-a670-45db6fdb9129",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "death_image_index",
+            "varType": 0
+        },
+        {
+            "id": "80151a03-7797-4714-af82-6ec177d5c9dd",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "smoke",
             "varType": 3
         }
     ],

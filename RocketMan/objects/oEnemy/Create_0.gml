@@ -1,9 +1,12 @@
+hsp = 0;
+vsp = 0;
+grounded = true;
 if (weapon != 0) {
 	mygun = instance_create_depth(x, y, depth - 1, oWeapon);
 	with (mygun) {
 		owner = other.id;
 		ChangeWeapon(other.weapon);
-		ammo[weapon] += 20;
+		//ammo[weapon] += 20;
 	}
 } else
 	mygun = noone;

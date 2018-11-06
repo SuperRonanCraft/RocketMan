@@ -1,4 +1,6 @@
 /// @desc Check hitting a shootable before wall and move
+if (global.paused)
+	return;
 x += lengthdir_x(spd, direction);
 y += lengthdir_y(spd, direction);
 if (place_meeting(x, y, pShootable)) {
@@ -13,11 +15,11 @@ if (place_meeting(x, y, pShootable)) {
 				with (oScore)
 					healthscale = 2;
 		}*/
-} else if (place_meeting(x, y, pWall) && image_index != 0) {
-	while (position_meeting(x, y, pWall)) {
-		x -= lengthdir_x(1, direction);
-		y -= lengthdir_y(1, direction);
-	}
+} else if (place_meeting(x, y, oWall) && image_index != 0) {
+	//while (position_meeting(x, y, oWall)) {
+	//	x -= lengthdir_x(1, direction);
+	//	y -= lengthdir_y(1, direction);
+	//}
 	spd = 0;
 	instance_change(oHitSpark, true);
 	layer_add_instance("Tiles", id);

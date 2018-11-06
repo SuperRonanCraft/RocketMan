@@ -14,4 +14,7 @@ if (remove_on_move && letters >= length && keyboard_check_pressed(vk_anykey)){
 	if (focus_camera)
 		with (oCamera)
 			follow = oPlayer;
+} else if (letters mod 30 == 0) {
+	audio_sound_pitch(snShoot, choose(0.3, 1.0, 1.8));
+	audio_play_sound(snShoot, 5, false);
 }
