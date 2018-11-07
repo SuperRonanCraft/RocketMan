@@ -5,6 +5,7 @@ hit_cooldown = 0;
 canjump = 0;
 controller = 0;
 standing = true;
+event_inherited();
 if (global.player_health_original == 0)
 	global.player_health_original = hp;
 if (!global.newgame)

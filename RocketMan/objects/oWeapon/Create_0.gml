@@ -40,6 +40,20 @@ ds_map_add(weapons[2], "length", 30);
 ds_map_add(weapons[2], "clip", 20);
 ds_map_add(weapons[2], "reload_time", 60);
 
+//SMG
+weapons[3] = ds_map_create();
+ds_map_add(weapons[3], "sprite", sWeapon_SMG);
+ds_map_add(weapons[3], "recoil", 6);
+ds_map_add(weapons[3], "recoil_push", 3);
+ds_map_add(weapons[3], "damage", 1);
+ds_map_add(weapons[3], "projectile", sBullet_AR);
+ds_map_add(weapons[3], "cooldown", 2);
+ds_map_add(weapons[3], "startup", 0);
+ds_map_add(weapons[3], "bulletspeed", 25);
+ds_map_add(weapons[3], "length", 24);
+ds_map_add(weapons[3], "clip", 14);
+ds_map_add(weapons[3], "reload_time", 45);
+
 //ammo[array_length_1d(weapons) - 1] = 0;
 //ammo[0] = -1;
 

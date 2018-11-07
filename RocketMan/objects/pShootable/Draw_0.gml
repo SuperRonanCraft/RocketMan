@@ -1,1 +1,2 @@
 flash = Flash(flash);
+scHealthBar();

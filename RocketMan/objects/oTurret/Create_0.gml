@@ -3,3 +3,5 @@ image_index = 0;
 turret_dir = 0;
 cooldown = 60;
 current_cooldown = 0;
+roam = 0;
+event_inherited();

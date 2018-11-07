@@ -415,6 +415,14 @@
             }
         },
         {
+            "Key": "40d95337-2959-45a5-89e1-336be5bf56a7",
+            "Value": {
+                "id": "4245608f-0064-4437-9260-201319a7f87a",
+                "resourcePath": "sprites\\sWeapon_SMG\\sWeapon_SMG.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4252c40a-bb27-45a3-82ef-44781d840012",
             "Value": {
                 "id": "3a43bccc-5087-40d7-810d-9ee4dca8a034",
@@ -468,6 +476,14 @@
                 "id": "e89b2eab-920d-4cdb-830e-5845f4e17ec1",
                 "resourcePath": "views\\4b8a937f-041c-47c4-ac2e-ecef47537c50.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4cf25cb3-632c-4927-937d-fe34a923ca5c",
+            "Value": {
+                "id": "c5f19844-696e-49df-a306-62db378b83ed",
+                "resourcePath": "sprites\\sHealthBar\\sHealthBar.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -563,6 +579,14 @@
             "Value": {
                 "id": "30c0a32a-9664-4b97-bb86-bd1b24f7d74a",
                 "resourcePath": "sprites\\sWall\\sWall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "57591902-1386-4615-84be-a430ba7c52cf",
+            "Value": {
+                "id": "4d234063-91e0-4d2e-8dcc-3ba953a9c7f2",
+                "resourcePath": "sprites\\sHealthPickup\\sHealthPickup.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -679,6 +703,14 @@
             }
         },
         {
+            "Key": "74a89caa-5f14-4213-a179-5a66716dcf46",
+            "Value": {
+                "id": "798f5b53-22f3-498b-8ad4-3ff210491efc",
+                "resourcePath": "objects\\oHealthPickup\\oHealthPickup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "770018df-954a-4702-9c11-26c0398fcb09",
             "Value": {
                 "id": "a04aa17d-9938-437e-83df-1788cbf805d5",
@@ -732,14 +764,6 @@
                 "id": "4fa9d83f-d203-4f35-a0aa-4cfadba34aec",
                 "resourcePath": "scripts\\ChangeWeapon\\ChangeWeapon.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "7e8bb239-7c3f-4f44-8e4e-edb4adf59f7f",
-            "Value": {
-                "id": "b8ba2ae9-400b-44b3-886e-e6b2df3119f9",
-                "resourcePath": "objects\\oSpikes1\\oSpikes1.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1028,6 +1052,14 @@
                 "id": "b1fb2d72-62ac-460c-9b02-852243d74ca7",
                 "resourcePath": "sprites\\sEnemy\\sEnemy.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b6cfff69-f556-40ee-b98f-af6b5ec1fed0",
+            "Value": {
+                "id": "246217a3-244b-4f78-b957-39e652bd6a2b",
+                "resourcePath": "scripts\\scHealthBar\\scHealthBar.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1453,7 +1485,8 @@
         "ed177a18-d32e-447a-aea5-a80de685ab16",
         "2f588c1e-0e96-4d79-8219-89ffea9c3e23",
         "f0cfd6a1-e133-471f-b365-c52bbcf7abb1",
-        "22763d93-6cf1-425b-8fe8-ab98ba6087b3"
+        "22763d93-6cf1-425b-8fe8-ab98ba6087b3",
+        "b6cfff69-f556-40ee-b98f-af6b5ec1fed0"
     ],
     "tutorial": ""
 }
