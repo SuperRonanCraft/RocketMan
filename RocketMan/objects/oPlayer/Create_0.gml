@@ -15,7 +15,6 @@ mygun = instance_create_depth(x, y, depth - 1, oWeapon)
 with (mygun)
 	owner = other.id;
 
-
 sprite_bbox_left = sprite_get_bbox_left(sprite_index) - sprite_get_xoffset(sprite_index);
 sprite_bbox_right = sprite_get_bbox_right(sprite_index) - sprite_get_xoffset(sprite_index);
 sprite_bbox_top = sprite_get_bbox_top(sprite_index) - sprite_get_yoffset(sprite_index);

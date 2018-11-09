@@ -16,12 +16,19 @@ if (hascontrol) {
 	key_jump = keyboard_check_pressed(global.key_jump);
 	if (key_left || key_right || key_jump)
 		controller = 0;
-	if (abs(gamepad_axis_value(0, gp_axislh)) > 0.2){
+	if (abs(gamepad_axis_value(0, gp_axislh)) > 0.2) {
 		key_left = abs(min(gamepad_axis_value(0, gp_axislh), 0));
 		key_right = max(gamepad_axis_value(0, gp_axislh), 0);
 		controller = 1;
 	}
-	if (gamepad_button_check_pressed(0, gp_face1)){
+	var gamepad_rh = gamepad_axis_value(0, gp_axisrh);
+	var gamepad_rv = gamepad_axis_value(0, gp_axisrv);
+	show_debug_message("H = " + string(gamepad_rh) + " V = " + string(gamepad_rv));
+	if (abs(gamepad_rh) > 0.2 || abs(gamepad_rv) > 0.2) {
+		window_mouse_set(window_mouse_get_x() + (gamepad_rh * 12), window_mouse_get_y() + (gamepad_rv * 12));
+		controller = 1;
+	}
+	if (gamepad_button_check_pressed(0, gp_face1)) {
 		key_jump = 1;
 		controller = 1;
 	}

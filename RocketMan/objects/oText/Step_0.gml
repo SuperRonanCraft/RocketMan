@@ -9,12 +9,9 @@ if (h == 0)
 w = string_width(text_current);
 
 //Destroy when done
-if (remove_on_move && letters >= length && keyboard_check_pressed(vk_anykey)){
+if (remove_on_move && letters >= length && (keyboard_check_pressed(vk_anykey) || instance_exists(oPlayer) ? true : oPlayer.controller == 1)){
 	instance_destroy();
 	if (focus_camera)
 		with (oCamera)
 			follow = oPlayer;
-} else if (letters mod 30 == 0) {
-	audio_sound_pitch(snShoot, choose(0.3, 1.0, 1.8));
-	audio_play_sound(snShoot, 5, false);
 }
