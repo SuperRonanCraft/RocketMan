@@ -72,22 +72,8 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "ROCKET.DEFAULT",
-            "varName": "weapon",
-            "varType": 4
-        },
-        {
-            "id": "1cff009e-c0ed-407d-8a20-25f28353dd6e",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "sWeapon_Default",
-            "varName": "sprite",
+            "value": "oWeapon_Default",
+            "varName": "weapon_inst",
             "varType": 5
         }
     ],

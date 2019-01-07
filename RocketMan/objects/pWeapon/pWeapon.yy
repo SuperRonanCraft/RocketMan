@@ -2,7 +2,7 @@
     "id": "284705f3-4b1e-41c3-83a8-0a7ca6609176",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oWeapon",
+    "name": "pWeapon",
     "eventList": [
         {
             "id": "eb39c9d3-82cd-4333-978f-74aa749d07a5",
@@ -65,6 +65,20 @@
             "value": "0",
             "varName": "controller_angle",
             "varType": 0
+        },
+        {
+            "id": "6d4f7481-4330-43cc-9c1f-467e7e114509",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "WEAPON.DEFAULT",
+            "varName": "weapon_inst",
+            "varType": 5
         }
     ],
     "solid": false,

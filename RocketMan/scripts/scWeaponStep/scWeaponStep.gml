@@ -1,43 +1,17 @@
 /// @desc Follow Owner
 
-//Pointing / Angle
-weapon_dir = point_direction(x, y, xpoint, ypoint);
-weapon_yscale = 1;
-if (weapon_dir > 90 && weapon_dir < 270)
-	weapon_yscale = -1;
+if (owner == noone) exit;
 
-//Follow oPlayer
-//x = owner.x;
-//y = owner.y + 5;
+//Follow owner
+x = owner.x - lengthdir_x(current_recoil, image_angle);
+y = owner.y + 5 - lengthdir_y(current_recoil, image_angle);
 
 //firingdelay--;
 //recoil = max(0, recoil - 1);
 
-if (weapon_map[? ROCKET_MAP.PROJECTILE] == noone)
-	return;
+if (weapon_map[? WEAPON_MAP.PROJECTILE] == noone) exit;
 
-//Bullet
-if (current_delay == 0) {
-	if (ammo != 0) {
-		var length = weapon_map[? ROCKET_MAP.OFFSET];
-		with (instance_create_depth(x + lengthdir_x(length, weapon_dir), y + lengthdir_y(length, weapon_dir), depth - 1, oBullet)) {
-			sprite_index = other.weapon_map[? ROCKET_MAP.PROJECTILE];
-			direction = other.weapon_dir + irandom_range(-3, 3);
-			image_angle = direction;
-			spd = other.weapon_map[? ROCKET_MAP.SPEED];
-			owner = other.id;
-		}
-		ammo--;
-		//with (owner) {
-		//	hsp -= lengthdir_x(other.recoil_push, other.direction);
-		//	vsp -= lengthdir_y(other.recoil_push, other.direction);
-		//}
-		current_recoil = weapon_map[? ROCKET_MAP.RECOIL];
-		ScreenShake(2, 10);
-		audio_sound_pitch(snShoot, choose(0.8, 1.0, 1.2));
-		audio_play_sound(snShoot, 5, false);
-	}
-}
+//Delay till next shot
 current_delay = max(-1, current_delay - 1);
 if (current_delay == -1)
 	current_cd = max(0, current_cd - 1);
@@ -45,8 +19,8 @@ current_recoil = max(0, floor(current_recoil * 0.8));
 
 //Reload
 if (ammo == 0)
-	if (current_reload > weapon_map[? ROCKET_MAP.RELOAD_TIME]) {
-		ammo = weapon_map[? ROCKET_MAP.CLIP];
+	if (current_reload > weapon_map[? WEAPON_MAP.RELOAD_TIME]) {
+		ammo = weapon_map[? WEAPON_MAP.CLIP];
 		current_reload = 0;
 	} else
 		current_reload++;

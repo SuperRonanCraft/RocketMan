@@ -1,1 +1,2 @@
-y = ystart + sin(get_timer() / 500000) * 5;
+with (weapon)
+	y = ystart + sin(get_timer() / 500000) * 5;

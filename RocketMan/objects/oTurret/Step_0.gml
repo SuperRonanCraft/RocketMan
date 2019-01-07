@@ -8,7 +8,7 @@ if (nearby) {
 	if (diff < 45)
 		if (current_cooldown >= cooldown) {
 			with (instance_create_depth(x + lengthdir_x(10, turret_dir), y + lengthdir_y(10, turret_dir), depth - 1, oBullet)) {
-				sprite_index = sBullet_AR;
+				sprite_index = sBullet_Turret;
 				direction = other.turret_dir;
 				image_angle = direction;
 				spd = other.bulletspeed;

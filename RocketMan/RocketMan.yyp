@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "0bb295c6-029a-41b5-96fb-fea5891d47a7",
+            "Value": {
+                "id": "330d5786-ede9-4d7f-a66e-4bb4489b1140",
+                "resourcePath": "scripts\\scWeaponsList\\scWeaponsList.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0bb2d00e-30ef-41c6-b949-b8e496cf137e",
             "Value": {
                 "id": "5b6640f2-8be1-4a99-bd91-0cf7761e7a97",
@@ -148,6 +156,14 @@
                 "id": "4367dfee-9c5b-47d8-b26f-9026ba11cc80",
                 "resourcePath": "objects\\oWall\\oWall.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "168118de-3252-4298-a6b4-fc6606db6745",
+            "Value": {
+                "id": "258c3306-4399-47f7-9fdd-551384b9edc4",
+                "resourcePath": "sprites\\sBullet_Turret\\sBullet_Turret.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -282,7 +298,7 @@
             "Key": "284705f3-4b1e-41c3-83a8-0a7ca6609176",
             "Value": {
                 "id": "f184773b-dac5-4fe3-9ffe-0ad2d45413e9",
-                "resourcePath": "objects\\oWeapon\\oWeapon.yy",
+                "resourcePath": "objects\\pWeapon\\pWeapon.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -671,6 +687,14 @@
             }
         },
         {
+            "Key": "65d006cc-54a3-4d67-8db1-3e15cc4c9fc5",
+            "Value": {
+                "id": "0f30e2eb-5446-4ae2-af4b-3beaaed64f30",
+                "resourcePath": "objects\\oWeapon_Default\\oWeapon_Default.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "667a4203-f97b-48a6-afdd-ac24e139dfdb",
             "Value": {
                 "id": "f893f8ff-01d2-4c4b-a95e-c048dd96a9c0",
@@ -716,6 +740,14 @@
                 "id": "f18e4ca3-c172-4a84-8f89-e27c91c415a5",
                 "resourcePath": "views\\6fdca857-dd11-44a2-9839-6af04d14f9f7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "71579c7b-e3ea-47ab-b652-6b724969f384",
+            "Value": {
+                "id": "a9b9102f-e273-4610-9946-3f420576d6f7",
+                "resourcePath": "scripts\\scWeaponShoot\\scWeaponShoot.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1210,7 +1242,7 @@
             "Key": "cee5359a-ff99-4af5-8333-07bceefec5d6",
             "Value": {
                 "id": "9a537de3-a35f-4d25-ab75-c49d09c8e734",
-                "resourcePath": "sprites\\sBullet_RPG\\sBullet_RPG.yy",
+                "resourcePath": "sprites\\sBullet_Default\\sBullet_Default.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1548,7 +1580,9 @@
         "7e2de198-f32d-4b4e-b70a-4e74a1153a14",
         "b9736622-4650-4766-9ecc-3174f8bac0a2",
         "55500078-16be-4d1a-b6e6-905f211166ae",
-        "3851a897-3a83-489b-b9e2-9dfb762ad67d"
+        "3851a897-3a83-489b-b9e2-9dfb762ad67d",
+        "71579c7b-e3ea-47ab-b652-6b724969f384",
+        "0bb295c6-029a-41b5-96fb-fea5891d47a7"
     ],
     "tutorial": ""
 }

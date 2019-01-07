@@ -1,4 +1,6 @@
-/// @desc Follow Owner
+scWeaponStep();
+
+/*/// @desc Follow Owner
 
 //Pointing / Angle
 direction = point_direction(x, y, xpoint, ypoint);

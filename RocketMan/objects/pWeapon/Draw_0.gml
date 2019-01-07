@@ -1,5 +1,9 @@
 /// @description Draw gun
-if (sprite != -1) {
+
+//draw_self();
+scWeaponDraw();
+
+/*if (sprite != -1) {
 	draw_sprite_ext(
 	sprite,
 	1,

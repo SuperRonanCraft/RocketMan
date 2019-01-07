@@ -69,13 +69,9 @@ Jump(sPlayer, sPlayerRun, sPlayerAir, 1, 0, aimside, sPlayerRunBack, standing);
 if (standing && !ghostjump)
 	ghostjump = true;
 
-//with (mygun) {
-if (mouse_check_button(mb_left) || gamepad_button_check(0, gp_shoulderrb))
-	if (current_cd == 0) {
-		current_cd = weapon_map[? ROCKET_MAP.COOLDOWN];
-		current_delay = weapon_map[? ROCKET_MAP.STARTUP];
-	}
-xpoint = mouse_x;
-ypoint = mouse_y;
-//}
-scWeaponStep();
+with (myweapon) {
+	scWeaponShoot(id, mouse_check_button(mb_left) || gamepad_button_check(0, gp_shoulderrb));
+	xpoint = mouse_x;
+	ypoint = mouse_y;
+}
+//scWeaponStep();
