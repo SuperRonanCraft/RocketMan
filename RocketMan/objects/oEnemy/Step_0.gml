@@ -12,7 +12,7 @@ if (hit_cooldown > 0)
 Jump(sEnemy, sEnemyRun, sEnemyAir, 1, 0, direction, sEnemyRun, grounded);
 
 
-if (instance_exists(oPlayer)) 
+/*if (instance_exists(oPlayer)) 
 	with (mygun) {
 		if (!collision_line(x, y, oPlayer.x, oPlayer.y, oWall, false, false) && point_distance(oPlayer.x, oPlayer.y, x, y) < (RES_W / 2)) {
 			xpoint = oPlayer.x;

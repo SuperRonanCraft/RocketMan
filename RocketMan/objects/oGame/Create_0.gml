@@ -28,3 +28,5 @@ global.paused = false;
 
 //Paused
 paused = noone;
+
+draw_set_font(fPixel);
